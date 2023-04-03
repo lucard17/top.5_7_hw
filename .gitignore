@@ -1,0 +1,4 @@
+node_modules
+*.pdf
+pnpm-lock.yaml
+css/bootstrap.css

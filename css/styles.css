@@ -1,0 +1,74 @@
+.navbar-nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.comment+.comment {
+    margin-top: 1rem;
+}
+
+.comment_info-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid darkgray;
+}
+
+.comment_info {
+    display: flex;
+}
+
+.comment_author-avatar {
+    width: 3rem;
+    height: 3rem;
+    background-color: darkcyan;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.comment_author-name {
+    font-weight: bold;
+    margin: unset;
+}
+
+.comment_date {
+    margin: unset;
+}
+
+.comment_rate {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.comment_rate-star {
+    height: 1em;
+}
+
+.comment_rate-value {
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.comment_text {
+    position: relative;
+}
+
+.comment_delete {
+    position: absolute;
+    bottom: var(--bs-card-spacer-y);
+    right: var(--bs-card-spacer-x);
+}
+.comment_btn-delete {
+    color: white;
+    padding: 0;
+    margin: 0;
+    outline: unset;
+    border: unset;
+    background-color: unset;
+
+}
+.comment_btn-delete:hover{
+    background-color: var(--bs-danger);
+}
